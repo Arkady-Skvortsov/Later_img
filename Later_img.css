@@ -1,0 +1,56 @@
+body {
+        	background-color: black;
+        	height: 800px;
+        	position: fixed;
+        	width: 100vw;
+        }
+
+        .container {
+        	height: 500px;
+        	width: 1000px;
+        	position: relative;
+        	margin-left: 275px;
+        	margin-top: 125px;
+        	cursor: pointer;
+        	border: 3px solid white;
+        	background-color: black;
+        	transition: 1s ease;
+            -o-transition: 1s ease;
+            -mozila-transition: 1s ease;
+            -webkit-transition: 1s ease;
+        }
+
+        .container:hover {
+        	border: 3px solid blue;
+        }
+
+        .container .screen {
+        	height: 500px;
+        	width: 800px;
+        	left: 0;
+        	top: 0;
+        	background-image: url('https://i.ytimg.com/vi/FGjpFDsCW7g/maxresdefault.jpg');
+        	background-size: cover;
+        	background-position: center;
+        }
+
+        .container .text-c {
+        	top: -500px;
+        	right: 0;
+            width: 300px;
+            height: 500px;
+            position: relative;
+            float: right;
+            z-index: 1;
+        }
+
+        .container .text-c span {
+        	font-size: 20px;
+        	font-family: 'Comfortaa', cursive;
+        	font-weight: bold;
+        	color: white;
+        	display: inline;
+        	position: absolute;
+        	top: 105px;
+        	left: 0;
+        }
